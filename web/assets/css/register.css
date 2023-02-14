@@ -1,0 +1,96 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+/* FIX FLOAT */
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+.header {
+    font-family: monospace;
+}
+
+.container {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* CONTENT */
+.content {
+    padding: 0 28px 28px 28px;
+    background-color: #fff;
+    height: 900px;
+}
+
+.content .content-text {
+    font-family: cursive;
+    padding-top: 24px;
+}
+
+.content .content-desc {
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.content .content-desc a {
+    text-decoration: none;
+}
+
+.content .form-item-checkbox {
+    margin-left: 50px;
+}
+
+.content .form-check-label {
+    padding: 3px 0 0 4px;
+}
+
+.content a.form-item-forgot {
+    float: right;
+    text-decoration: none;
+}
+.errormess.invalid{
+    display: block;
+    color: red;
+}
+
+.errormess{
+    display: none;
+}
+.form-control.invalid{
+    border: red solid 1px;
+}
+
+.sp{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+    .gen.invalid{
+                color: red;
+            }
+.submit_btn{
+    display: none;
+}
+.submit_btn.btn_appear{
+    display: block;
+}
+.mess-error{
+    font-style: italic;
+    font-size: 25px;
+    color: red;
+}
